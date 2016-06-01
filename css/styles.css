@@ -1,0 +1,59 @@
+section {
+  position: relative;
+  display: flex;
+  height: 400px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: white; }
+  section .softsills {
+    background: black; }
+
+.skills-container {
+  position: relative;
+  display: flex;
+  height: 320px;
+  width: 80%; }
+  .skills-container .inside-cont-label {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center; }
+  .skills-container .inside-cont-bar {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start; }
+  .skills-container .inside-box {
+    height: 40px;
+    width: 150px;
+    background: #00637c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5; }
+    .skills-container .inside-box .fontstyles {
+      color: white;
+      font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-size: 18px;
+      font-weight: 700; }
+  .skills-container .bar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    height: 12px;
+    bottom: 12px;
+    width: 300px;
+    right: 2px;
+    border: 2px solid #448d9f; }
+    .skills-container .bar .tic {
+      position: relative;
+      height: 12px;
+      width: 2px;
+      margin-left: 60px;
+      background: #448d9f; }
