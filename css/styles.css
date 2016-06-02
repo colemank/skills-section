@@ -6,8 +6,9 @@ section {
   justify-content: center;
   align-items: center;
   background: white; }
-  section .softsills {
-    background: black; }
+
+.softskills {
+  background: black; }
 
 .skills-container {
   position: relative;
@@ -28,32 +29,58 @@ section {
     justify-content: space-around;
     flex-direction: column;
     align-items: flex-start; }
-  .skills-container .inside-box {
-    height: 40px;
-    width: 150px;
-    background: #00637c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 5; }
-    .skills-container .inside-box .fontstyles {
-      color: white;
-      font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-      font-size: 18px;
-      font-weight: 700; }
-  .skills-container .bar {
+  .skills-container .glue {
     position: relative;
     display: flex;
-    flex-direction: row;
-    align-content: space-around;
-    height: 12px;
-    bottom: 12px;
-    width: 300px;
-    right: 2px;
-    border: 2px solid #448d9f; }
-    .skills-container .bar .tic {
+    width: 452px; }
+    .skills-container .glue .inside-box {
+      height: 40px;
+      width: 150px;
+      background: #00637c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 6; }
+      .skills-container .glue .inside-box .fontstyles {
+        color: white;
+        font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-size: 18px;
+        font-weight: 700; }
+    .skills-container .glue .bar {
       position: relative;
+      display: flex;
+      flex-direction: row;
+      align-content: space-around;
       height: 12px;
-      width: 2px;
-      margin-left: 60px;
-      background: #448d9f; }
+      width: 300px;
+      right: 2px;
+      border: 2px solid #00637c;
+      z-index: 5; }
+      .skills-container .glue .bar .bar-fill {
+        position: absolute;
+        height: 12px;
+        z-index: 4;
+        background: #30dc96; }
+      .skills-container .glue .bar #bar1 {
+        width: 275px; }
+      .skills-container .glue .bar #bar2 {
+        width: 275px; }
+      .skills-container .glue .bar #bar3 {
+        width: 218px; }
+      .skills-container .glue .bar #bar4 {
+        width: 275px; }
+      .skills-container .glue .bar #bar5 {
+        width: 124px; }
+      .skills-container .glue .bar #bar6 {
+        width: 186px; }
+      .skills-container .glue .bar #bar7 {
+        width: 186px; }
+      .skills-container .glue .bar #bar8 {
+        width: 80%; }
+      .skills-container .glue .bar .tic {
+        position: relative;
+        height: 12px;
+        width: 2px;
+        margin-left: 60px;
+        background: #448d9f;
+        z-index: 6; }
