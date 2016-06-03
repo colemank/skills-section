@@ -39,12 +39,26 @@ section{
 		justify-content: space-around;
 		flex-direction: column;
 		align-items:flex-start;
-
 	}
 	.glue{	
 		position:relative;
 		display: flex;
-		width: 452px;
+		width: 80%;
+		margin: 0 10% 0 10%;
+		h1{
+			color: white;
+			font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+			font-size: 60px;
+			font-weight: 700;
+			margin: 0px;
+		}
+		h3{
+			color: #30dc96;
+			font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+			font-size: 28px;
+			font-weight: 700;
+			margin: 0px;
+		}
 		.inside-box{
 		    height: 40px;
 		    width: 150px;
@@ -63,7 +77,7 @@ section{
 		}
 		
 		.bar{
-	        position: relative;
+            position: relative;
 		    display: flex;
 		    flex-direction: row;
 		    align-content: space-around;
@@ -71,12 +85,12 @@ section{
 		    width: 67%;
 		    right: 2px;
 		    border: 2px solid #00637c;
-		    z-index: 5;
+		    z-index: 6;
 			.bar-fill{
-				    position: absolute;
-				    height: 8px;
-				    z-index: 4;
-				    background: #30dc96;
+		        position: absolute;
+			    height: 8px;
+			    z-index: 4;
+			    background: #30dc96;
 				}
 			#bar1{
 				width:95%;							
@@ -107,8 +121,9 @@ section{
 		        position: relative;
 			    height: 8px;
 			    width: 25%;
-			    border-right: 2px solid #448d9f;
-			    z-index: 6;
+			    right: -1px;
+			    border-right: 1px solid #448d9f;
+			    z-index: 5;
 			    box-sizing: border-box;
 			}
 		}

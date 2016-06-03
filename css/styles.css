@@ -50,7 +50,20 @@ section {
   .skills-container .glue {
     position: relative;
     display: flex;
-    width: 452px; }
+    width: 80%;
+    margin: 0 10% 0 10%; }
+    .skills-container .glue h1 {
+      color: white;
+      font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-size: 60px;
+      font-weight: 700;
+      margin: 0px; }
+    .skills-container .glue h3 {
+      color: #30dc96;
+      font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0px; }
     .skills-container .glue .inside-box {
       height: 40px;
       width: 150px;
@@ -73,7 +86,7 @@ section {
       width: 67%;
       right: 2px;
       border: 2px solid #00637c;
-      z-index: 5; }
+      z-index: 6; }
       .skills-container .glue .bar .bar-fill {
         position: absolute;
         height: 8px;
@@ -99,6 +112,7 @@ section {
         position: relative;
         height: 8px;
         width: 25%;
-        border-right: 2px solid #448d9f;
-        z-index: 6;
+        right: -1px;
+        border-right: 1px solid #448d9f;
+        z-index: 5;
         box-sizing: border-box; }
