@@ -1,11 +1,25 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  margin: 0px; }
+
 section {
   position: relative;
   display: flex;
   height: 400px;
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
   width: 100%;
   justify-content: center;
   align-items: center;
   background: white; }
+  section:last-child {
+    margin-right: 0; }
 
 .softskills {
   background: black; }
@@ -13,15 +27,19 @@ section {
 .skills-container {
   position: relative;
   display: flex;
-  height: 320px;
-  width: 80%; }
+  height: 100%; }
   .skills-container .inside-cont-label {
     height: 100%;
-    width: 50%;
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 48.821174201%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center; }
+    .skills-container .inside-cont-label:last-child {
+      margin-right: 0; }
   .skills-container .inside-cont-bar {
     height: 100%;
     width: 40%;
@@ -52,35 +70,35 @@ section {
       flex-direction: row;
       align-content: space-around;
       height: 12px;
-      width: 300px;
+      width: 67%;
       right: 2px;
       border: 2px solid #00637c;
       z-index: 5; }
       .skills-container .glue .bar .bar-fill {
         position: absolute;
-        height: 12px;
+        height: 8px;
         z-index: 4;
         background: #30dc96; }
       .skills-container .glue .bar #bar1 {
-        width: 275px; }
+        width: 95%; }
       .skills-container .glue .bar #bar2 {
-        width: 275px; }
+        width: 95%; }
       .skills-container .glue .bar #bar3 {
-        width: 218px; }
+        width: 70%; }
       .skills-container .glue .bar #bar4 {
-        width: 275px; }
+        width: 90%; }
       .skills-container .glue .bar #bar5 {
-        width: 124px; }
+        width: 35%; }
       .skills-container .glue .bar #bar6 {
-        width: 186px; }
+        width: 55%; }
       .skills-container .glue .bar #bar7 {
-        width: 186px; }
+        width: 65%; }
       .skills-container .glue .bar #bar8 {
-        width: 80%; }
+        width: 65%; }
       .skills-container .glue .bar .tic {
         position: relative;
-        height: 12px;
-        width: 2px;
-        margin-left: 60px;
-        background: #448d9f;
-        z-index: 6; }
+        height: 8px;
+        width: 25%;
+        border-right: 2px solid #448d9f;
+        z-index: 6;
+        box-sizing: border-box; }
